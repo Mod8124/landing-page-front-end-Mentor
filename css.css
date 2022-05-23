@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 * {
     margin:0px;
     padding:0px;
@@ -56,7 +59,8 @@
 #cta {
     padding-top: 13%;
     width: 80%;
-    margin:0 auto
+    margin:0 auto;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -83,6 +87,8 @@ button {
     padding: 15px 50px 15px 50px;
     border-radius: 50px;
     border: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 12px rgb(0,0,0, 0.4);
 }
 
 button:hover {
@@ -91,9 +97,10 @@ button:hover {
 }
 
 #red svg {
-    width:50px;
-    height: 50px;
+    width:40px;
+    height: 40px;
     fill:#fff;
+    cursor: pointer;
 }
 
 #red svg:hover {
@@ -118,6 +125,14 @@ footer {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(to left, hsl(300, 69%, 71%),hsl(257, 40%, 49%));
+    color:white;
+}
+
+footer a {
+    color:hsl(257, 40%, 49%);
 }
 
 
@@ -165,6 +180,8 @@ footer {
         width:80%;
         margin:0 auto;
     }
+
+    
     
 }
 
